@@ -1,0 +1,149 @@
+html.gdocs-dark {
+  color-scheme: dark;
+  background: #000 !important;
+}
+
+html.gdocs-dark,
+html.gdocs-dark body,
+html.gdocs-dark #docs-chrome,
+html.gdocs-dark #workspace,
+html.gdocs-dark #docs-editor,
+html.gdocs-dark #docs-editor-container,
+html.gdocs-dark #kix-appview,
+html.gdocs-dark .kix-appview-editor,
+html.gdocs-dark .kix-appview-editor-container,
+html.gdocs-dark .kix-zoomdocumentplugin-outer,
+html.gdocs-dark .kix-zoom-wrapper,
+html.gdocs-dark .left-sidebar-container,
+html.gdocs-dark .navigation-widget,
+html.gdocs-dark .docs-companion-app-switcher-container,
+html.gdocs-dark .companion-app-switcher-container {
+  background: #000 !important;
+  background-color: #000 !important;
+  color: #fff !important;
+  border-color: #222 !important;
+}
+
+html.gdocs-dark .gdocs-invert-chrome {
+  filter: invert(1) hue-rotate(180deg) !important;
+}
+
+html.gdocs-dark .gdocs-invert-chrome img[src*="googleusercontent"],
+html.gdocs-dark .gdocs-invert-chrome img[src*="lh3.google"],
+html.gdocs-dark .gdocs-invert-chrome .gb_d img,
+html.gdocs-dark .gdocs-invert-chrome .gb_a img,
+html.gdocs-dark .gdocs-invert-chrome .docs-presence-plus-collab-widget-container img {
+  filter: invert(1) hue-rotate(180deg) !important;
+}
+
+html.gdocs-dark .kix-page,
+html.gdocs-dark .kix-page-paginated,
+html.gdocs-dark .kix-page-content-wrapper,
+html.gdocs-dark .kix-paginateddocumentplugin-compact-mode,
+html.gdocs-dark .kix-page-paginated-overflow {
+  background: #000 !important;
+  background-color: #000 !important;
+  box-shadow: 0 0 0 1px #222 !important;
+}
+
+html.gdocs-dark .kix-canvas-tile-content {
+  filter: invert(1) hue-rotate(180deg) !important;
+}
+
+html.gdocs-dark #kix-horizontal-ruler,
+html.gdocs-dark #kix-vertical-ruler,
+html.gdocs-dark #kix-ruler,
+html.gdocs-dark #kix-horizontal-ruler-container,
+html.gdocs-dark #kix-vertical-ruler-container,
+html.gdocs-dark .docs-horizontal-ruler,
+html.gdocs-dark .docs-ruler-mask,
+html.gdocs-dark .kix-ruler,
+html.gdocs-dark .kix-ruler-background,
+html.gdocs-dark .kix-ruler-background-inner,
+html.gdocs-dark .kix-ruler-face,
+html.gdocs-dark [id*="ruler"],
+html.gdocs-dark [id*="ruler"] *:not(canvas):not(svg):not(img),
+html.gdocs-dark [class*="kix-ruler"],
+html.gdocs-dark [class*="kix-ruler"] *:not(canvas):not(svg):not(img),
+html.gdocs-dark [class*="docs-ruler"],
+html.gdocs-dark [class*="docs-ruler"] *:not(canvas):not(svg):not(img),
+html.gdocs-dark [data-gdocs-ruler],
+html.gdocs-dark [data-gdocs-ruler] *:not(canvas):not(svg):not(img) {
+  background: #000 !important;
+  background-color: #000 !important;
+  background-image: none !important;
+  color: #ccc !important;
+  border-color: #555 !important;
+  box-shadow: none !important;
+}
+
+html.gdocs-dark .kix-ruler-face-number {
+  color: #ccc !important;
+}
+
+html.gdocs-dark .kix-ruler-face-minor-division,
+html.gdocs-dark .kix-ruler-face-major-division {
+  border-left-color: #888 !important;
+}
+
+html.gdocs-dark #kix-horizontal-ruler canvas,
+html.gdocs-dark #kix-vertical-ruler canvas,
+html.gdocs-dark [id*="ruler"] canvas,
+html.gdocs-dark [id*="ruler"] svg,
+html.gdocs-dark [class*="kix-ruler"] canvas,
+html.gdocs-dark [class*="kix-ruler"] svg,
+html.gdocs-dark [data-gdocs-ruler] canvas,
+html.gdocs-dark [data-gdocs-ruler] svg {
+  filter: invert(1) hue-rotate(180deg) !important;
+}
+
+html.gdocs-dark .kix-wordhtmlgenerator-word-node,
+html.gdocs-dark .kix-lineview-text-block,
+html.gdocs-dark .kix-paragraphrenderer,
+html.gdocs-dark .kix-commentoverlayrenderer-normal {
+  color: #fff !important;
+}
+
+html.gdocs-dark .kix-cursor-caret {
+  border-color: #fff !important;
+  background-color: #fff !important;
+}
+
+html.gdocs-dark .kix-selection-overlay {
+  background-color: rgba(66, 133, 244, 0.35) !important;
+}
+
+html.gdocs-dark .goog-menu,
+html.gdocs-dark .goog-menu-vertical,
+html.gdocs-dark .docs-material-menu,
+html.gdocs-dark .jfk-tooltip,
+html.gdocs-dark .docs-slidingdialog {
+  background: #111 !important;
+  color: #fff !important;
+  border: 1px solid #333 !important;
+}
+
+html.gdocs-dark .goog-menuitem,
+html.gdocs-dark .goog-menuitem-content,
+html.gdocs-dark .docs-findinput-input {
+  color: #fff !important;
+  background-color: transparent !important;
+}
+
+html.gdocs-dark .goog-menuitem-highlight,
+html.gdocs-dark .goog-menuitem-hover {
+  background-color: #222 !important;
+  color: #fff !important;
+}
+
+html.gdocs-dark ::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  background: #000;
+}
+
+html.gdocs-dark ::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 6px;
+  border: 3px solid #000;
+}

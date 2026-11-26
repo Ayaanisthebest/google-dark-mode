@@ -1,0 +1,47 @@
+{
+  "manifest_version": 3,
+  "name": "Google Docs Auto Dark Mode",
+  "version": "1.5",
+  "description": "Dark Google Docs in system dark mode, plus Option+Shift+F for fullscreen.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://docs.google.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Google Docs Dark Mode"
+  },
+  "commands": {
+    "toggle-fullscreen": {
+      "suggested_key": {
+        "default": "Alt+Shift+F",
+        "mac": "Alt+Shift+F"
+      },
+      "description": "Toggle Google Docs fullscreen"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://docs.google.com/document/*",
+        "https://docs.google.com/document/u/*"
+      ],
+      "css": ["darkmode.css"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["https://docs.google.com/*"],
+      "js": ["fullscreen.js"],
+      "all_frames": true,
+      "match_about_blank": true,
+      "run_at": "document_start"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
